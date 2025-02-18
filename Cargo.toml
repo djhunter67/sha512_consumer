@@ -1,0 +1,11 @@
+[package]
+name = "tweetnacl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+c_in_rust = { version = "0.1.0", path = "../c_in_rust" }
+
+[dev-dependencies]
+reqwest = "0.12.12"
+rstest = "0.24.0"
